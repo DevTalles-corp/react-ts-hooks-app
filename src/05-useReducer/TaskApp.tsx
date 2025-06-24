@@ -9,12 +9,6 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 
 import { getTasksInitialState, taskReducer } from './reducer/tasksReducer';
 
-interface Todo {
-  id: number;
-  text: string;
-  completed: boolean;
-}
-
 export const TasksApp = () => {
   const [inputValue, setInputValue] = useState('');
   // const [todos, setTodos] = useState<Todo[]>([]);
