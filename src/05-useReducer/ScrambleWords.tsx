@@ -6,7 +6,7 @@ import React, { useEffect, useReducer } from 'react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Card, CardContent } from '@/components/ui/card';
-import { SkipForward, Play, LeafyGreen } from 'lucide-react';
+import { SkipForward, Play } from 'lucide-react';
 import confetti from 'canvas-confetti';
 import {
   getInitialState,
